@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.app-body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    min-height: 80vh;
+    border: 1px solid darkblue;
+    width: 600px;
+    border-radius: 5px;
+    background-image: linear-gradient(135deg,#ff9482,#7d77ff)
+}
+.background-body{
+    display: flex;
+    justify-content: center;
+}
+.userInputBox{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+.todoHeading{
+    font-family: 'Caveat';
+    color: white;
+}
+.listItems{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+/* Check box Item */
+.checkBoxStyle{
+    width: 20px;
+    height: 20px;
+}
+
+.listStyle{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* label Container */
+.labelContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ff9482;
+    border-left: 5px solid white;
+    border-radius: 5px;
+    width: 450px;
+    height: 25px;
+    padding: 5px;
+    background-color: white;
+}
+
+/* highlighted on star */
+.updateLabel{
+    border-left: 5px solid red;
+}
+
+
+.impItem{
+    border-left: 5px solid red;
+}
+.checkElement{
+    width: 60%;
+}
+.delete-icon-cont{
+    margin: 10px;
+}
+
+.btnEl{
+    margin-top: 10px;
+    font-family: 'Roboto';
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+.btnEl1{
+    margin-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+/* updated status of list item */
+.strikeThrough{
+    text-decoration: line-through;
+}
